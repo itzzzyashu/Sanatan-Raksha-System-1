@@ -57,19 +57,25 @@ else:
 
 """
 
-API_ID_KEY = "4886713"
+API_ID_KEY = 4886713
 
 API_HASH_KEY = "7422340890422c56016af732f9f69cf1"
   
 STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bbi219Db959WylXOQcpFGt_LS9ICFbBka7SHXaCGrPrbPoDz2BjaHdvB2hOZMgOZtaGns8rhCMcTURDvo1TNEhzItdxWOe2xxgs6akQZmu2mLTz070Jq0dvW_0hBwFmBk3Xc-Vre0l0ezZmMA6kFymU1Z4Ixc7QtlDKS31mukQGh-nRdIPA16j0saz6zlnvpPQNfj_LdvWFuprEElA5hWq7R5nq9mmEZAe4EbqLXKL9VyWgRDlYQJgzDuM2o922GZVmf4vCCVEkdTJM1CbY75XT0BBYIF5_wPrRI="
 
 BOT_TOKEN = "5063379816:AAEoh4Ff3drjp7JnwADfsle3xQ8I8QWaKAA"
-
+"""
 with open(os.path.join(os.getcwd(), "Sanatan_Raksha_System/elevated_users.json"), "r") as f:
     data = json.load(f)
 Skynet = data["Skynet"]
 ENFORCERS = data["ENFORCERS"]
 INSPECTORS = data["INSPECTORS"]
+"""
+
+
+Skynet = [2053172802]
+INSPECTORS = [2053172802,1969730847,2088713608, 2089452706, 1118151835, 1171308376]
+ENFORCERS = [2037190400]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
