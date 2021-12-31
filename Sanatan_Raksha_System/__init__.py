@@ -45,7 +45,7 @@ else:
     API_HASH_KEY = Config.API_HASH
     STRING_SESSION = Config.STRING_SESSION
     MONGO_DB_URL = Config.MONGO_DB_URL
-    with open(os.path.join(os.getcwd(), "Skynet_System/elevated_users.json"), "r") as f:
+    with open(os.path.join(os.getcwd(), "Skynet_System//elevated_users.json"), "r") as f:
         data = json.load(f)
     Skynet = data["Skynet"]
     ENFORCERS = data["ENFORCERS"]
@@ -65,7 +65,7 @@ STRING_SESSION = "1BVtsOHUBu0rvnoWsBKw9jJtK7zILHZ_C8BIrsxs2y99PP9K-QITU6G_E893bb
 
 BOT_TOKEN = "5063379816:AAEoh4Ff3drjp7JnwADfsle3xQ8I8QWaKAA"
 
-with open(os.path.join(os.getcwd(), "Sanatan_Raksha_System/elevated_users.json"), "r") as f:
+with open(os.path.join(os.getcwd(), "Sanatan_Raksha_System//elevated_users.json"), "r") as f:
     data = json.load(f)
     Skynet = data["Skynet"]
     ENFORCERS = data["ENFORCERS"]
