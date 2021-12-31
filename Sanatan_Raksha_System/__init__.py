@@ -74,7 +74,7 @@ INSPECTORS = data["INSPECTORS"]
 
 
 Skynet = [2053172802]
-INSPECTORS = [2053172802,1969730847,2088713608, 2089452706, 1118151835, 1171308376]
+INSPECTORS = [2053172802, 1969730847, 2088713608, 2089452706, 1118151835, 1171308376]
 ENFORCERS = [2037190400]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
@@ -83,7 +83,7 @@ Skynet_logs = "SanatanRakshaGlobalLogs" # SRS • Global
 
 Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
 
-GBAN_MSG_LOGS = "-1001708065341" # SRS • Support
+GBAN_MSG_LOGS = "SanatanRakshaSystemSupport" # SRS • Support
 
 INSPECTORS.extend(Skynet)
 
