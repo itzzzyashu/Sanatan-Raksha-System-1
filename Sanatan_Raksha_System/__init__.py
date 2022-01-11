@@ -82,7 +82,7 @@ Skynet_logs = -1001708065341 # SRS • Global
 
 Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
 
-GBAN_MSG_LOGS = "SanatanRakshaSystemSupport" # SRS • Support
+GBAN_MSG_LOGS = -1001708065341 # SRS • Support
 
 INSPECTORS.extend(Skynet)
 
