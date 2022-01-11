@@ -78,7 +78,7 @@ ENFORCERS = [2037190400]
 
 MONGO_DB_URL = "mongodb+srv://Itzzzyashu:XE2wNb0imzTGXv1b@cluster0.bxlbu.mongodb.net/Cluster0?retryWrites=true&w=majority"
 
-Skynet_logs = "-1001708065341" # SRS • Global
+Skynet_logs = -1001708065341 # SRS • Global
 
 Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
 
