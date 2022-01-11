@@ -44,28 +44,28 @@ for load in to_load:
 @System.on(system_cmd(pattern=r"srsinfo", allow_enforcer=True))
 async def status(event):
     msg = await event.reply("Conecting to Sanatan-Raksha-System • Core.")
-    time.sleep(1)
-    await msg.edit("Initialising ■□□□□□")
-    time.sleep(1)
-    await msg.edit("Initialising ■■□□□□")
-    time.sleep(1)
-    await msg.edit("Initialising ■■■□□□")
-    time.sleep(1)
-    await msg.edit("Initialising ■■■■□□")
-    time.sleep(1)
-    await msg.edit("Initialising ■■■■■□")
-    time.sleep(1)
-    await msg.edit("Initialising ■■■■■■")
-    time.sleep(1)
+    time.sleep(0.2)
+    await msg.edit("Initialising ■□■□■□")
+    time.sleep(0.2)
+    await msg.edit("Initialising □■□■□■")
+    time.sleep(0.2)
+    await msg.edit("Initialising ■□■□■□")
+    time.sleep(0.2)
+    await msg.edit("Initialising □■□■□■")
+    time.sleep(0.2)
+    await msg.edit("Initialising ■□■□■□")
+    time.sleep(0.2)
+    await msg.edit("Initialising □■□■□■")
+    time.sleep(0.2)
     await msg.edit("Access Granted!")
-    time.sleep(2)
+    time.sleep(0.2)
     sender = await event.get_sender()
     user_status = "Inspector" if sender.id in INSPECTORS else "Enforcer"
     time.sleep(1)
     await msg.edit(on_string.format(Enforcer=user_status, name=sender.first_name))
 
 
-@System.on(system_cmd(pattern="Sanatan stats"))
+@System.on(system_cmd(pattern="srs stats"))
 async def stats(event):
     msg = f"Processed {System.processed} messages since last restart."
     msg += f"\n{len(ENFORCERS)} Enforcers & {len(INSPECTORS)} Inspectors"
