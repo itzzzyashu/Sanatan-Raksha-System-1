@@ -190,7 +190,7 @@ async def logs(event):
 )
 async def approve(event, flags):
     replied = await event.get_reply_message()
-    match = re.match(r"\╒═══「 $SCAN 」", replied.text)
+    match = re.match(r"\$SCAN", replied.text)
     auto_match = re.search(r"\$AUTO(SCAN)?", replied.text)
     me = await System.get_me()
     if auto_match:
