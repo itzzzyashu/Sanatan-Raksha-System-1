@@ -11,13 +11,16 @@ on_string = """
 # Make sure not to change these too much
 # If you still wanna change it change the regex too
 scan_request_string = """
-╒═══「 $SCAN 」
+$SCAN
+=================================
 Sanatan-Raksha-Scan request!
+---------------------------------
 **• Enforcer:** {enforcer} 
 **• User scanned:** {spammer}
 **• Reason:** `{reason}`
 **• Scan Source:** {chat}
 **• Target Message:** `{message}`
+=================================
 """
 forced_scan_string = """
 ╒═══「 $FORCED 」
