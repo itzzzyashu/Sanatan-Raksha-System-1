@@ -72,9 +72,9 @@ INSPECTORS = data["INSPECTORS"]
 """
 
 
-Skynet = [2053172802, 2088713608]
+Skynet = [5262453320]
 INSPECTORS = [2053172802, 2088713608, 1118151835]
-ENFORCERS = [2037190400]
+ENFORCERS = [5262453320]
 
 MONGO_DB_URL = "mongodb+srv://itzzzyashu:QX2gX5RHXikLbI8E@rajniirestart.b0kv1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
