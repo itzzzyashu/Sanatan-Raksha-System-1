@@ -60,9 +60,9 @@ API_ID_KEY = 4886713
 
 API_HASH_KEY = "7422340890422c56016af732f9f69cf1"
   
-STRING_SESSION = "1BVtsOL8Bu1S1wthViyJbJ3V-YYA9mmlEksB28hLFMoczGsRx17Kb7lCoGUygCEjnOqNrQ7yVYEhu_VMK3yov3XGKhA2XFVtQtHa3pfxmPtJjLB9c3dM7MNYeTHoB7kTtdp6rDgduFo50q5PqC7ZwfN29pQje2F3MWPX2ol2N-Eo9UE1vs0cnybA0jvQIOlu4-1CFolVRtvoHiKlmfcx23oB69uYc-970G-BV_vS47xKRVqqOpONUIAUK8TXdilShEWuF9OGQZPHVn0lW7D-rkNIOcVknu7TfxxJyk1Uz0r6MCU2MP9gUw8yYusmrndHI8lQdc5jDnb7WHRxmEJUBpRqQTaGrzPQ="
+STRING_SESSION = "1BVtsOKwBu33G20QVp9HpPL5yJR1Y3TFiVAvzI3ZzTDlWVAKaMzjO8qNEtv_AflugmB76B4riI2m2qI85dZFgBIfzQKXVxQ7LQ4mi01OSRFLLBmZjeQPbvkrMQDVhXztR-moF-YUSt07MqFLv61oXKrzO7XO1ArB5wmFwzi82ua1yPeWkgKOElVUaZIAvdgHqbpspPis-nKKffYS0zT4TBEZWH49nUAANKnVzoJwdGQB8tn085411hd9jP7ybyGu0Eukb5FJlYVateN-vi7hAWJ5Kk-syPI1NLLOCSwBY6qNr9vxEJ8ZnkTm5-CmD2Lw3HvcJOC4nxJSMbo40ChDbbLd012aYk0Q="
 
-BOT_TOKEN = "5272888806:AAHjsSHa7lXniX5N4tVYprJnQN9xWCyI_h0"
+BOT_TOKEN = "5304748270:AAFcer-fYw7k_tb1KjwfzwzQCc0JkQg2kok"
 """
 with open(os.path.join(os.getcwd(), "Sanatan_Raksha_System/elevated_users.json"), "r") as f:
     data = json.load(f)
@@ -78,11 +78,11 @@ ENFORCERS = [2037190400]
 
 MONGO_DB_URL = "mongodb+srv://itzzzyashu:QX2gX5RHXikLbI8E@rajniirestart.b0kv1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 
-Skynet_logs = -1001671479781 # SRS • Global
+Skynet_logs = -1001673317649 # SRS • Global
 
-Skynet_approved_logs = "SanatanRakshaApprovalLogs" # SRS • Approvals
+Skynet_approved_logs = "srs_approvals" # SRS • Approvals
 
-GBAN_MSG_LOGS = -1001671479781 # SRS • Support
+GBAN_MSG_LOGS = -1001775934764 # SRS • Support
 
 INSPECTORS.extend(Skynet)
 
